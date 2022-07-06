@@ -1,0 +1,31 @@
+Number of positive integral solutions
+ 
+Medium Accuracy: 51.71% Submissions: 149 Points: 4
+
+You are given an equation of the form x1+x2+...+xN=K. You need to find the total number of positive integral solutions of this equation.
+ 
+
+Example 1:
+
+Input: s = a+b=5
+Output: 4
+Explanation: (4,1) , (1,4) , (2,3) , (3,2)
+
+Example 2:
+
+Input: s = a+b=1
+Output: 0
+Explanation: No solution exist.
+ 
+
+Your Task:
+You don't need to read input or print anything. Your task is to complete the function posIntSol() which takes a string as input and returns number of solutions.
+ 
+
+Expected Time Complexity : O(Length of given string)
+Expected Auxiliary Space : O(1)
+ 
+
+Constraints:
+1 <= K <= 25
+2 <= N <= 10
